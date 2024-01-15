@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+/* Example media query for PCs */
+@media (min-width: 768px) {
+  /* Add your styles for PCs here */
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
